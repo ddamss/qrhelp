@@ -79,6 +79,7 @@ class MemberController extends Controller
                 'image'=>$url
             ]);
 
+            return redirect()->route('members.index');
 
     }
 
