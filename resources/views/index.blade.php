@@ -14,10 +14,10 @@
 
     @foreach ($members as $member)
     <ul>
-        <li>first name : {{$member->first_name}}</li>
-        <li>last name : {{$member->last_name}}</li>
-        <li>address : {{$member->address}}</li>
-        <li>mobile number : {{$member->mobile_number}}</li>
+        <li><b>first name</b> : {{$member->first_name}}</li>
+        <li><b>last name</b> : {{$member->last_name}}</li>
+        <li><b>address</b> : {{$member->address}}</li>
+        <li><b>mobile number </b>: {{$member->mobile_number}}</li>
     </ul>
         <img src="{{$member->image}}">
 
