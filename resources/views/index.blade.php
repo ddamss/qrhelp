@@ -7,7 +7,11 @@
 </head>
 <body>
     
-    
+<button type="button" class="btn btn-outline-primary btn-rounded waves-effect" style="display:inline-block;margin-left:50px;font-size:13px;">
+    <a href="{{route('members.create')}}" style="text-decoration: none;color:inherit;">Create new member</a>
+</button>
+
+
     @foreach ($members as $member)
     <ul>
         <li>first name : {{$member->first_name}}</li>
